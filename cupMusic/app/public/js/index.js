@@ -97,13 +97,13 @@ $(function(){
 			if (that.$.music[0].volume == 1) {
 				that.$.music[0].volume = 0;
 				that.$.speakers.css({
-					"background-image": "url(images/mute.png)"
+					"background-image": "url(../images/mute.png)"
 				});
 			}
 			else {
 				that.$.music[0].volume = 1;
 				that.$.speakers.css({
-					"background-image": "url(images/speaker.png)"
+					"background-image": "url(../images/speaker.png)"
 				});
 			}
 		});

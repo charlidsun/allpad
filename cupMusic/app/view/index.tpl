@@ -1,10 +1,9 @@
-<!DOCTYPE html>
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
   <title>Music Player - Mobile Interface Carousel</title>
-    <link rel="stylesheet" href="lib/reset.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../public/lib/reset.min.css">
+    <link rel="stylesheet" href="../public/css/style.css">
 </head>
 <body>
   <div class="container">
@@ -33,7 +32,7 @@
 			</div>
 			<audio class="music"><source src="http://mp3.9ku.com/m4a/186947.m4a" type="audio/mpeg"> Your browser doesn't support video API</audio>
 	</div>
-  	<script src='lib/jquery.min.js'></script>
-    <script  src="js/index.js"></script>
+  	<script src='../public/lib/jquery.min.js'></script>
+    <script  src="../public/js/index.js"></script>
 </body>
 </html>
